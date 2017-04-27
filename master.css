@@ -1,21 +1,14 @@
     /*
     Name: Roberto Sanchez
     Date: Apr 26, 2017
-    
     File: master.css
     Purpose: Sets up basic layout of the website from the header and footer to the navigation bar setup.
 
 */
     /**********************************************
     Navigation Bar CSS
-    TODO: Center Nav Bar
+    TODO: Extend Nav bar and footer bar to the edges of screen
 ***********************************************/
-    
-    body {
-        width: 960px;
-        margin: 0 auto;
-        font-family: Calibri, sans-serif;
-}
     
     .topnav {
         background-color: #333;
@@ -24,7 +17,6 @@
         border: 1px solid #ccc;
         border-width: 1px 0;
         list-style: none;
-        
     }
     
     .topnav a {
@@ -82,6 +74,12 @@
     /**********************************************
     Body CSS
 ***********************************************/
+    
+    body {
+        width: 960px;
+        margin: 0 auto;
+        font-family: Calibri, sans-serif;
+    }
     
     #Wrapper {
         background-color: blue;
