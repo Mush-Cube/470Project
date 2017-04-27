@@ -1,4 +1,4 @@
-/*
+    /*
     Name: Roberto Sanchez
     Date: Apr 26, 2017
     
@@ -10,6 +10,7 @@
 
 /**********************************************
     Navigation Bar CSS
+    TODO: Center Nav Bar
 ***********************************************/
 
 .topnav {
@@ -40,7 +41,9 @@
     background-color: #4CAF50;
     color: white;
 }
-
+#bar{
+    float:right;
+}
 
 /**********************************************
     Header CSS
