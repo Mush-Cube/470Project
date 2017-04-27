@@ -15,6 +15,7 @@
         overflow: hidden;
         text-align: center;
         list-style: none;
+        width:100%;
     }
     
     .topnav a {
@@ -74,13 +75,12 @@
 ***********************************************/
     
     body {
-        width: 64.5563em;
         margin: 0 auto;
         font-family: Calibri, sans-serif;
     }
     
     #Wrapper {
-        background-color: blue;
+        background-color: pink;
     }
     /**********************************************
     Footer CSS
