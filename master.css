@@ -14,8 +14,6 @@
         background-color: #333;
         overflow: hidden;
         text-align: center;
-        border: 1px solid #ccc;
-        border-width: 1px 0;
         list-style: none;
     }
     
@@ -76,7 +74,7 @@
 ***********************************************/
     
     body {
-        width: 960px;
+        width: 64.5563em;
         margin: 0 auto;
         font-family: Calibri, sans-serif;
     }
