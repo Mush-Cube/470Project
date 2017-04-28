@@ -48,7 +48,6 @@
 ***********************************************/
     
     header {
-        padding: 1em;
         color: #f2f2f2;
         background-color: white;
         clear: left;
@@ -56,19 +55,30 @@
     }
     
     #logoImg {
-        width: 8.125em;
-        height: 7em;
+        width: 50%;
+        height: 50%;
     }
-    
+    @font-face{
+    font-family: "Futura";
+    src: url(https://typekit.com/fonts/futura-pt) format("truetype");
+    }
     #site-title {
         text-align: center;
         display: inline-block;
+        font-size: 4em;
+        
+    }
+    #site-title a {
+        color: #595a5b;
+        text-decoration: none;
+        font-family: Futura, Arial, Helvetica, sans-serif ;
+    }
+    span{
+        font-size: 1.8em;
+        color:#3796c6;
+        font-family: Futura, Arial, Helvetica, sans-serif;
     }
     
-    #site-title a {
-        color: #333;
-        text-decoration: none;
-    }
     /**********************************************
     Body CSS
 ***********************************************/
