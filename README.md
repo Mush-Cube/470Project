@@ -7,6 +7,7 @@ have developed with the help of our team. Also, it will host information and res
 to use in their projects.
 
 What type of functionality will this site contain?
+
 Functionality for the site:
   ● Main page
     ○ Show upcoming events
