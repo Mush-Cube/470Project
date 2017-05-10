@@ -5,7 +5,20 @@
     Purpose: Sets up basic layout of the website from the header and footer to the navigation bar setup.
 
 */
-    /**********************************************
+/**********************************************
+    Top Bar
+***********************************************/
+#MessageBar{
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 1em;
+    text-align: center;
+    color: white;
+}
+/**********************************************
     Navigation Bar CSS
 ***********************************************/
     
