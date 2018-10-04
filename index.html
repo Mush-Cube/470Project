@@ -1,31 +1,85 @@
 <!---
-    Name:
-    Date:
-    FileName:
-    Purpose:
+    Name: Mukesh Sehdev
+    Date: 5/01/17
+    FileName: index.html
+    Purpose: Front homepage for our website - Cookie Coders
  -->
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="master.css">
-    <title>CookieCoders - (HomePage)</title>
-</head>
-
-<body>
-   <div id="MessageBar">
-       <span>Student Project -- Not a commercial cite</span>
-   </div>
-    <header id="header">
-        <a href="index.html" title="Home"> <img id="logoImg" src="Images/banner.png" alt="Company Logo" /> </a>
-    </header>
-    <div class="topnav" id="myTopnav"> <a href="index.html">Home</a> <a href="programdescription.html">Program Description</a> <a href="registration.php">Register</a> <a href="qanda.php">FAQ</a> <a href="about.html">About</a> </div>
-    <div id="Wrapper">
-        <p> Your stuff Here</p>
-    </div>
-    <footer> Copyright &copy; 2017 - CookieCoders Organization </footer>
-</body>
-
-</html>
+	<head>
+		<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<link rel="stylesheet" href="master.css">
+					<link rel="stylesheet" href="text.css">
+						<script type="text/javascript" src="mapDropBox.js"></script>
+						<title>CookieCoders - (HomePage)</title>
+					</head>
+					<body>
+						<div id="MessageBar">
+							<span>Student Project -- not a commercial site</span>
+						</div>
+						<header id="header">
+							<a href="index.html" title="Home">
+								<img id="logoImg" src="Images/banner.png" alt="Company Logo" />
+							</a>
+						</header>
+						<div class="topnav" id="myTopnav">
+							<a class="active" href="index.html">Home</a>
+							<a href="programdescription.html">Program Description</a>
+							<a href="registration.php">Register</a>
+							<a href="qanda.php">FAQ</a>
+							<a href="about.html">About</a>
+						</div>
+						<div id="Wrapper">
+							<div class = "design_pic">
+								<img src = "Images/kid-software.jpg" alt="Picture of designing website"/>
+								<!--<img src = "http://ww2.kqed.org/mindshift/wp-content/uploads/sites/23/2013/05/Kids-computers1.jpg" alt="Picture of designing website"/>-->
+							</div>
+							<!--Location Tab-->
+							<div class = "location">
+								<!--Location Dropdown Box-->
+								<div class="dropdown">
+									<button onclick="myFunction()" class="dropbtn">
+										<img id = "gps_pic" src = "Images/gps.png" alt="gpsPic"/>
+										<br>FIND US NEAR YOU
+										</button>
+										<div id="myDropdown" class="dropdown-content">
+											<a href="registration.php">Los Angeles, CA: 1499 Bond St, 90015</a>
+											<a href="registration.php">Portland, OR: 777 NE Martin Luther King Jr Blvd, 97232</a>
+											<a>(COMING SOON)</a>
+										</div>
+									</div>
+								</div>
+								<!--Link Tables-->
+								<div class = "text_table">
+									<table>
+										<tr>
+											<td>
+												<a class="active" href="programdescription.html">
+													<img src = "Images/description.png" alt = "Description link image"/>
+												</a>
+											</td>
+											<td>
+												<a class="active" href="registration.php">
+													<img src = "http://www.wilmothgroup.com/wp-content/uploads/2015/01/register-now.gif" alt = "Register link image"/>
+												</a>
+											</td>
+											<td>
+												<a class="active" href="qanda.php" >
+													<img src = "Images/faq.jpg" alt = "FAQ link image"/>
+												</a>
+											</td>
+										</tr>
+									</table>
+								</div>
+								<!--Bottom text-->
+								<div class = "bottom_text">
+									<p>Cookie Coders serves as an organization to enrich the youth through education for the modern world of technology. With our guidance, we will educate the youth on the basics of Java, C++, Python, as well as fun interactive programming such as Fortran 77 and Inform 7. We are hosting a series of 7 day events throughout the United States to target all youth for this great opportunity. Our Game Developer Event offers students the potential of getting a head start in pursuing a career in the booming field of software development. </p>
+								</div>
+							</div>
+							<footer>
+								<p>Copyright &copy; 2017 - CookieCoders Organization</p>
+								<p>Last Updated: <!--#echo var="LAST_MODIFIED"--></p>
+							</footer>
+						</body>
+					</html>

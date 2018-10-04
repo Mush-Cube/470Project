@@ -1,0 +1,36 @@
+#description1 {
+    display: inline-block;
+    width: 26em;
+    padding-top: 1em;
+    padding-left: 20em;
+    padding-bottom: 3em;
+    float:left;
+}
+
+
+#Wrapper {
+    width: 95em;
+    margin: 0 auto 0 auto;
+}
+
+p{
+    margin-left: 0.5em;
+    margin-right:0.5em;
+}
+h1{
+    margin-left: 0.25em;
+    margin-right:0.5em;
+}
+
+#d2{
+    display:inline-block;
+    float: right;
+    width: 20em;
+    padding-top: 1em;
+    padding-right: 18em;
+    padding-bottom: 3em;
+}
+.caption1{
+    position:relative;
+    top:5px;
+}

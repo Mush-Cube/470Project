@@ -1,0 +1,98 @@
+img{
+   max-width: 50%;
+   max-height: 50%;
+   padding: 10px;
+   margin: auto;
+   display: block;
+}
+
+.design_pic{
+	text-align: center;
+	
+}
+
+
+.bottom_text{
+	text-align: center;
+	font-size: 14pt;
+	padding-right: 10em;
+	padding-left: 10em;
+	
+}
+
+.location{
+	color: #f2f2f2;
+    width: 100%;
+    padding: 10px;
+	background-color: #333;
+	text-align: center;
+
+}
+
+
+#gps_pic{
+	 width: 42px;
+	 height: 42px;
+	 float: left;
+	 margin: auto;
+}
+
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: black;
+	padding-right: 30px; 
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	font-weight: bold;
+	width: 138%;
+	
+
+	
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+table{
+    border-width: 10px;
+	text-align: center;
+	width:100%;
+}
+
+tr{
+    margin-left:75%; 
+    margin-right:5%;
+}
+
+td{
+	text-align: center;
+}

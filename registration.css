@@ -1,0 +1,64 @@
+#TextBody1, #events{
+    width:42%;
+    height:30em;
+    margin-left:5em;
+    float:left;
+}
+#topBlock{
+    width: 80%;
+    height: 100%;
+    padding-left: 15%;
+    float: left;
+}
+#bottomBlock{
+    width: 80%;
+    height: 85%;
+    margin-right:10px;
+    padding-left: 15%;
+    padding-bottom: 1em;
+    float: left;
+}
+#maps{
+    width:42%;
+    height:30em;
+    margin-left:5em;
+    float:left;
+    padding-bottom: 2em;
+    
+}
+#forms{
+   
+    padding-right: 12em;
+    width:28.375em;
+    height:55em;
+    Color: #f2f2f2;
+    border: solid black 2px;
+    padding:1em;
+    padding-bottom: 1em;
+    text-align: left;
+    background-color: #333;
+    
+    margin-left:5em;
+    float:left;
+    
+    
+}
+#innerform{
+    
+}
+#formTitle{
+    color: #4CAF50;
+}
+#formFormat{
+    padding-left: 2em;
+}
+#required{
+    color:red;
+}
+#popuptext{
+    color: white;
+}
+/*
+Google Maps API
+AIzaSyCnE8l6rFddHnp22B4eXqWcdSFeZAtD5WI
+*/
