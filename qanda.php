@@ -122,10 +122,10 @@
 <?php
    if($_SERVER["REQUEST_METHOD"] == "POST" && ($name != '') && ($phone != '') && ($email != '') && ($comment != '') && ($_POST["privacy"] == 'on')) 
    {
-        $servername = "cecs-db01.coe.csulb.edu";
-        $username = "cecs470m28";
-        $password = "ef8yah";
-        $dbname = "cecs470m28";
+        $servername = "[SERVERNAME]";
+        $username = "[USRNAME]";
+        $password = "[PS]";
+        $dbname = "[DBNAME]";
 
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);

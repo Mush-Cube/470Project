@@ -364,7 +364,7 @@
                 </div>
                 <div id="maps">
                     <h4>Location:</h4>
-                    <iframe width="600" height="450" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJBTqlcb_HwoARANqHr6D2Svc&key=AIzaSyCnE8l6rFddHnp22B4eXqWcdSFeZAtD5WI" allowfullscreen></iframe>
+                    <iframe width="600" height="450" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJBTqlcb_HwoARANqHr6D2Svc&key=[INSERTKEY]" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
