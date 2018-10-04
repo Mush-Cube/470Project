@@ -2,7 +2,7 @@
 <?php
     
     // Database Stuff
-    $connection = mysqli_connect("cecs-db01.coe.csulb.edu","cecs470m28", "ef8yah", "cecs470m28");
+    $connection = mysqli_connect("URLDATABASE","USRNAME", "PASSWORD", "PS");
     $error = mysqli_connect_error();
     if ($error != null)
     {
