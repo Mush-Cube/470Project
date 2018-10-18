@@ -1,5 +1,5 @@
 #  CookieCoders
-This site is to server as an informative gateway for potential clients to see what the site has to offer and request additional information. It displays information about a summer coding camp hosted by our client.
+>This site is to server as an informative gateway for potential clients to see what the site has to offer and request additional information. It displays information about a summer coding camp hosted by our client.
 ## Getting Started
 
 The following web site is designed to be hosted on a L.A.M.P. server. Several files are PHP files to handle communication between MySQL server and client inputs. This site can be run on any operating systems as long as they meet the prerequisites.
@@ -48,7 +48,7 @@ This is a tl;dr. For more information check [this](https://howtoubuntu.org/how-t
 * **Howard Cho** - *Program Description Section* - [hcho1223](https://github.com/hcho1223)
 * **Jennifer Nguyen** - *Q &A Section* - [Jenn-Git](https://github.com/Jenn-Git)
 *  **Mukesh Sehdev** - *HomePage Section* - [mukeshsehdev](https://github.com/mukeshsehdev)
-*  **Roberto  Sanchez** - *Registration Section* - [PurpleBooth](https://github.com/PurpleBooth)
+*  **Roberto  Sanchez** - *Registration Section* - [Zyxel-1](https://github.com/Zyxel-1)
 
 ## License
 
